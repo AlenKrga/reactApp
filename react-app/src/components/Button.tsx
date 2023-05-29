@@ -1,7 +1,11 @@
 import React from 'react'
 
-export const Button = () => {
+interface Props {
+    children: string
+}
+
+export const Button = ({children}: Props) => {
   return (
-    <button className= "btn btn-primary">Button</button>
+    <button className= "btn btn-primary">{children}</button>
   )
 }
