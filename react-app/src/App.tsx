@@ -1,4 +1,5 @@
 import Alert from "./components/Alert";
+import { Button } from "./components/Button";
 
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   
   return (
     <div>
-   <Alert><span>World</span></Alert>
+   <Button></Button>
     </div>
   );
 }
